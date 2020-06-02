@@ -1,0 +1,110 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: darkslateblue;
+  font-family: Raleway;
+  font-weight: 700;
+  word-spacing: 3px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: darkslateblue;
+  font-family: Raleway;
+  font-weight: 700;
+  word-spacing: 3px;
+}
+
+::placeholder {
+  color: darkslateblue;
+  font-family: Raleway;
+  font-weight: 700;
+  word-spacing: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+#my-form {
+  margin: 1.3em 2em;
+  text-align: center;
+  background-color: #14213D;
+  height: 27vh;
+  border-radius: 6px;
+  box-shadow: 2px 2px 12px black;
+}
+
+#form-header {
+  background-color: #fca311;
+  padding: 1.5em;
+  border-radius: 6px;
+}
+
+#form-header-title {
+  font-family: Montserrat;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+
+#user-name {
+  margin: 1.5em;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #f9fafa;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+}
+
+.badge {
+  padding: 10px;
+}
+
+.card {
+  background-color: #121212;
+}
+
+.list-group-item {
+  color: grey;
+  background-color: #222;
+  border-bottom: 1px #007FFF solid;
+}
+
+strong {
+  color: whitesmoke;
+}
+
+.page-heading {
+  color: #fca311;
+  text-decoration: underline;
+  font-family: Asap;
+}
+
+@media (max-width: 360px) {
+  #my-form {
+    height: 35vh;
+  }
+}
+
+@media(min-width: 768px) {
+  #my-form {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+}
